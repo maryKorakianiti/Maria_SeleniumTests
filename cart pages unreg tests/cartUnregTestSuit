@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="addToCartTest.html">addToCartTest</a></td></tr>
+<tr><td><a href="addToCartAndCheckoutTest.html">addToCartAndCheckoutTest</a></td></tr>
+<tr><td><a href="addToCartCompleteOrderTest.html">addToCartCompleteOrderTest</a></td></tr>
+<tr><td><a href="noNameCheckoutInfoTest.html">noNameCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noSurnameCheckoutInfoTest.html">noSurnameCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noCountryCheckoutInfoTest.html">noCountryCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noCityCheckoutInfoTest.html">noCityCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noStateCheckoutInfoTest.html">noStateCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noAddressCheckoutInfoTest.html">noAddressCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noPostalCodeCheckoutInfoTest.html">noPostalCodeCheckoutInfoTest</a></td></tr>
+<tr><td><a href="noPhoneCheckoutInfoTest.html">noPhoneCheckoutInfoTest</a></td></tr>
+<tr><td><a href="showStroreManagementPageTest.html">showStroreManagementPageTest</a></td></tr>
+</tbody></table>
+</body>
+</html>
