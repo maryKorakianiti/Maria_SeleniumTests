@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/c2cstore/" />
+<title>sendToMyAddressReturnToHomepageTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">sendToMyAddressReturnToHomepageTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/c2cstore/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Welcome</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>maryk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td>login</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>c2c Homepage</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>You are successfully logged in!</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>//input[@value='Catalogue']</td>
+	<td>Catalogue</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Catalogue']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Create Store</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='quantity'])[15]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//input[@value='Add'])[15]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Create Store</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>css=form &gt; input[type=&quot;submit&quot;]</td>
+	<td>Cart</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=form &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Create Store</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td>Checkout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>JSP Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>exact:Send items to your address, or you wish them to delivered to another address?</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>//input[@value='To another address']</td>
+	<td>To another address</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='To another address']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>JSP Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>JSP Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>maryk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=surname</td>
+	<td>kor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=country</td>
+	<td>chibudi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=city</td>
+	<td>chibudi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=state</td>
+	<td>chibudi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=address</td>
+	<td>chibudi main str</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=postalcode</td>
+	<td>99999</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=phone</td>
+	<td>222222222</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td>Complete Order</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>Order complete successful</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td>return to Homepage</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>c2c Homepage</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>You are successfully logged in!</td>
+</tr>
+</tbody></table>
+</body>
+</html>
