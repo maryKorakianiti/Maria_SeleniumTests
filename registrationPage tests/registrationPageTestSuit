@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="correctRegistrationTest.html">correctRegistrationTest</a></td></tr>
+<tr><td><a href="noNameRegTest.html">noNameRegTest</a></td></tr>
+<tr><td><a href="noSurnameRegTest.html">noSurnameRegTest</a></td></tr>
+<tr><td><a href="noUserNameRegTest.html">noUserNameRegTest</a></td></tr>
+<tr><td><a href="noEmailRegTest.html">noEmailRegTest</a></td></tr>
+<tr><td><a href="noPasswordRegTest.html">noPasswordRegTest</a></td></tr>
+<tr><td><a href="noPasswordVerificationRegTest.html">noPasswordVerificationRegTest</a></td></tr>
+<tr><td><a href="noSecurityAnswerRegTest.html">noSecurityAnswerRegTest</a></td></tr>
+<tr><td><a href="noCountryRegTest.html">noCountryRegTest</a></td></tr>
+<tr><td><a href="noCityRegTest.html">noCityRegTest</a></td></tr>
+<tr><td><a href="noStateRegTest.html">noStateRegTest</a></td></tr>
+<tr><td><a href="noAddressRegTest.html">noAddressRegTest</a></td></tr>
+<tr><td><a href="noPostalCodeRegTest.html">noPostalCodeRegTest</a></td></tr>
+<tr><td><a href="noPhoneRegTest.html">noPhoneRegTest</a></td></tr>
+<tr><td><a href="noInfoRegTest.html">noInfoRegTest</a></td></tr>
+<tr><td><a href="userNameExistsRegTest.html">userNameExistsRegTest</a></td></tr>
+</tbody></table>
+</body>
+</html>
